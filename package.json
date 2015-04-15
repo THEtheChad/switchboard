@@ -1,0 +1,39 @@
+{
+  "name": "node-template",
+  "description": "The best module ever.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/THEtheChad/node-template",
+  "bugs": "https://github.com/THEtheChad/node-template/issues",
+  "license": "MIT",
+  "main": "lib/node-template.js",
+  "author": {
+    "name": "Chad Elliott",
+    "email": "chad.d.elliott@gmail.com",
+    "url": "thethechad.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/THEtheChad/node-template"
+  },
+  "keywords": [],
+  "dependencies": {
+    "debug": "2.1.3",
+    "jasmine": "^2.2.1",
+    "lodash": "1.0.2",
+    "q": "1.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-mocha": "^1.1.0",
+    "gulp-plumber": "^0.6.5",
+    "jshint-stylish": "^0.4.0",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
