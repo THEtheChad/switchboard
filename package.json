@@ -1,11 +1,11 @@
 {
-  "name": "node-template",
+  "name": "switchboard",
   "description": "The best module ever.",
   "version": "0.0.0",
-  "homepage": "https://github.com/THEtheChad/node-template",
-  "bugs": "https://github.com/THEtheChad/node-template/issues",
+  "homepage": "https://github.com/THEtheChad/switchboard",
+  "bugs": "https://github.com/THEtheChad/switchboard/issues",
   "license": "MIT",
-  "main": "lib/node-template.js",
+  "main": "lib/switchboard.js",
   "author": {
     "name": "Chad Elliott",
     "email": "chad.d.elliott@gmail.com",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/THEtheChad/node-template"
+    "url": "https://github.com/THEtheChad/switchboard"
   },
   "keywords": [],
   "dependencies": {
